@@ -1,0 +1,54 @@
+@import "/home/ivan/.config/tokyo.css";
+
+#window {
+margin: 0px;
+border: 1px solid @foreground;
+border-radius: 0px;
+background-color: @background;
+font-family: MesloLGS Nerd Font;
+}
+
+#input {
+margin: 5px;
+border: none;
+border-radius: 0px;
+color: @foreground;
+background-color: @background_light;
+box-shadow: none;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: @background;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: @background;
+}
+
+#scroll {
+margin: 0px;
+background-color: @background;
+}
+
+#text {
+margin: 5px;
+color: @foreground;
+font-family: Hack Nerd Font Mono;
+}
+
+#text:selected {
+color: @foreground;
+background: none;
+}
+
+#entry:selected {
+background-color: @background_light;
+color: @background_light;
+border-radius: 0px;
+border: none;
+outline: 0px;
+}
